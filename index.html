@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="Eng">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="3600">
+    <title>La météo dans les transports ! </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css">
+ </head>
+  <body>
+
+    <section id="app">
+        <h1>
+            <span id="city">_</span>
+        </h1>
+
+        <i class="wi wi-day-rain"></i>
+
+        <h2>
+            <div class="temp">
+                <span id="num">_</span> 
+                <span id="deg">°</span>C 
+            </div>
+        </h2>
+
+        <h3>
+            (<span id="conditions">Ciel dégagé</span>)
+        </h3>
+
+        <h4>
+            <i class="bx bxs-thermometer"></i>
+            <div class="details">
+              <div class="temp">
+                <span class="numb-2">_</span>
+                <span class="deg">°</span>C
+              </div>
+              <p>Feels like</p>
+            </div>
+          </div>
+          <div class="column humidity">
+            <i class="bx bxs-droplet-half"></i>
+            <div class="details">
+              <span>_</span>
+              <p>Humidity</p>
+        </h4>
+    </section> 
+
+    <script src="js/script.js"></script>
+    <script src="js/api_key.js"></script>
+    <config src="json/Config.json"></config>
+
+  </body>
+</html>
